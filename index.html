@@ -11,6 +11,46 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/runnerau.json", {onProgress: UnityProgress});
     </script>
+        <div class="absolute"> 
+
+    
+        <h3 style="text-align: center"><br><u>Tutorial</u></h3>
+        <center><p><b>Q</b>: Collect red coin<br>
+          <b>D</b>: Collect blue coin<br>
+          <b>S</b>: Crouch for avoiding a floating trap, <br>
+          Collect yellow coin on the ground <br>
+          <b>Space-bar</b>:  Jump to collect yellow coin <br>and avoid the trap<br>
+          <b>R</b>: Restart the game</p></center>
+    
+          <h3 style="text-align: center"><br><u>วิธีเล่น</u></h3>
+          <center><p><b>Q</b>: เก็บเหรียญสีแดง<br>
+            <b>D</b>: เก็บเหรียญสีน้ำเงิน<br>
+            <b>S</b>: ก้มเพื่อหลบกับดัก<br>
+            เก็บเหรียญสีเหลืองบนพื้น<br>
+            <b>Space-bar</b>:  กระโดดเพื่อหลบกับดัก<br>เก็บเหรียญสีเหลืองบนอากาศ<br>
+            <b>R</b>: เริ่มเกมใหม่</p></center></div>
+
+         <style>
+          div.absolute {
+            border: 3px solid #8AC007;
+            width: 320px;
+            /* position: absolute; top: 5%;  */
+          } 
+      
+          body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: right;
+            align-items: right; 
+          }
+      
+          canvas {
+            position: absolute;
+          }
+        </style>
   </head>
   <body>
     <div class="webgl-content">
